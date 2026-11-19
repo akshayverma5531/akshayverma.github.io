@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    /* Smooth scrolling for top nav links */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #162238; /* Deep navy background */
+      color: #e2e8f0;
+    }
+    /* Top Navigation Bar */
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #121c2e;
+      display: flex;
+      justify-content: space-around;
+      padding: 16px 0;
+      border-bottom: 1px solid #2d3f5e;
+      z-index: 100;
+    }
+    nav a {
+      color: #7dd3fc;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    /* Page Sections */
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 38px;
+      color: #94a3b8;
+      margin-bottom: 30px;
+    }
+    /* Rounded Information Cards */
+    .card {
+      background-color: #1e2d4a;
+      border: 1px solid #3b527a;
+      border-radius: 12px;
+      padding: 18px 24px;
+      margin-bottom: 18px;
+      line-height: 1.6;
+      font-size: 16px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #7dd3fc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Links -->
+  <nav>
+    <a href="#Introduction">Introduction</a>
+    <a href="#Resume">Resume</a>
+    <a href="#Highlights">Highlights</a>
+    <a href="#Research">Research</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section id="Introduction">
+    <h1>Introduction</h1>
+    <div class="card">Hi! I am <strong>Your Name</strong>.</div>
+    <div class="card">Add your education, degree, or current role details here.</div>
+    <div class="card">Add your teaching, work experience, or past organizations here.</div>
+    <div class="card">List your core skills, research interests, or areas of expertise here.</div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="Resume">
+    <h1>Resume</h1>
+    <div class="card">Add your resume summary or a link to download your PDF CV.</div>
+  </section>
+
+  <!-- Highlights Section -->
+  <section id="Highlights">
+    <h1>Highlights</h1>
+    <div class="card">Add key achievements, awards, or milestones here.</div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="Research">
+    <h1>Research</h1>
+    <div class="card">List your publications, projects, or papers here.</div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact">
+    <h1>Contact</h1>
+    <div class="card">Email: your.email@example.com | LinkedIn / GitHub links</div>
+  </section>
+
+</body>
+</html>
